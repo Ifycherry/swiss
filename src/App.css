@@ -1,0 +1,36 @@
+header {
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: fixed;
+  top: 0px;
+  z-index: 1000; 
+  width: 100%;
+}
+
+
+
+.goat{
+  color: red;
+}
+
+header > nav > ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  
+}
+
+.link {
+   text-decoration: none;
+   text-transform: uppercase;
+}
+
+.super{
+  display: flex;
+  gap: 4px;
+  flex-flow: wrap;
+  padding: 90px;
+} 
